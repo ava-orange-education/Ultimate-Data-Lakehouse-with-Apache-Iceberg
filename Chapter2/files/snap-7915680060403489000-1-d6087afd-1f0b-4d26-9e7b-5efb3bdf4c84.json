@@ -1,0 +1,21 @@
+{"data":[{
+  "manifest_path" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/d6087afd-1f0b-4d26-9e7b-5efb3bdf4c84-m0.avro",
+  "manifest_length" : 8798,
+  "partition_spec_id" : 0,
+  "content" : 0,
+  "sequence_number" : 1,
+  "min_sequence_number" : 1,
+  "added_snapshot_id" : 7915680060403489000,
+  "added_files_count" : 16,
+  "existing_files_count" : 0,
+  "deleted_files_count" : 0,
+  "added_rows_count" : 1048575,
+  "existing_rows_count" : 0,
+  "deleted_rows_count" : 0,
+  "partitions" : [ {
+    "contains_null" : false,
+    "contains_nan" : false,
+    "lower_bound" : "FS8AAA==",
+    "upper_bound" : "FEYAAA=="
+  } ]
+}]}

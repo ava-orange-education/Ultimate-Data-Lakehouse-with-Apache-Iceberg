@@ -1,0 +1,41 @@
+{
+  "status": 1,
+  "snapshot_id": 7915680060403489000,
+  "data_file": {
+    "content": 0,
+    "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-01/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00009.parquet",
+    "file_format": "PARQUET",
+    "partition": {
+      "tpep_pickup_datetime_day": "2019-01-01T00:00:00.000"
+    },
+    "record_count": 189035,
+    "file_size_in_bytes": 1069566,
+    "column_sizes": {
+      "1": 266472,
+      "2": 268697,
+      "3": 46478
+    },
+    "value_counts": {
+      "1": 189035,
+      "2": 189035,
+      "3": 189035
+    },
+    "null_value_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "lower_bounds": {
+      "1": [96, 230, 53],
+      "2": [231, 121, 57],
+      "3": [0, 0, 0]
+    },
+    "upper_bounds": {
+      "1": [57, 42, 80],
+      "2": [227, 236, 216],
+      "3": [8, 0, 0]
+    },
+    "split_offsets": [4],
+    "sort_order_id": 0
+  }
+}
