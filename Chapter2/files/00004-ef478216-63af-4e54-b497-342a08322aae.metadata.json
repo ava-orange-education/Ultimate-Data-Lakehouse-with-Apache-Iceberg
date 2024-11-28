@@ -1,0 +1,179 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "d527a024-7c74-43d1-ba4c-c2ed85c12d52",
+  "location" : "s3a://lakehouse/warehouse/data_db/new_york_taxi",
+  "last-sequence-number" : 3,
+  "last-updated-ms" : 1732436279515,
+  "last-column-id" : 7,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "tpep_pickup_datetime",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 2,
+      "name" : "tpep_dropoff_datetime",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 3,
+      "name" : "passenger_count",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 4,
+      "name" : "trip_distance",
+      "required" : false,
+      "type" : "decimal(10, 2)"
+    }, {
+      "id" : 5,
+      "name" : "PULocationID",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 6,
+      "name" : "DOLocationID",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 7,
+      "name" : "fare_amount",
+      "required" : false,
+      "type" : "float"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ {
+      "name" : "tpep_pickup_datetime_day",
+      "transform" : "day",
+      "source-id" : 1,
+      "field-id" : 1000
+    } ]
+  } ],
+  "last-partition-id" : 1000,
+  "default-sort-order-id" : 1,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  }, {
+    "order-id" : 1,
+    "fields" : [ {
+      "transform" : "identity",
+      "source-id" : 5,
+      "direction" : "asc",
+      "null-order" : "nulls-first"
+    }, {
+      "transform" : "identity",
+      "source-id" : 6,
+      "direction" : "asc",
+      "null-order" : "nulls-first"
+    } ]
+  } ],
+  "properties" : {
+    "owner" : "root",
+    "format" : "parquet",
+    "write.distribution-mode" : "range",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 3733467730074381361,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 3733467730074381361,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 7915680060403489000,
+    "timestamp-ms" : 1732104980695,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1732103217067",
+      "added-data-files" : "16",
+      "added-records" : "1048575",
+      "added-files-size" : "5901990",
+      "changed-partition-count" : "15",
+      "total-records" : "1048575",
+      "total-files-size" : "5901990",
+      "total-data-files" : "16",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/snap-7915680060403489000-1-d6087afd-1f0b-4d26-9e7b-5efb3bdf4c84.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 2,
+    "snapshot-id" : 6118885366905035378,
+    "parent-snapshot-id" : 7915680060403489000,
+    "timestamp-ms" : 1732252302701,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1732252219747",
+      "added-data-files" : "3",
+      "added-records" : "10",
+      "added-files-size" : "7016",
+      "changed-partition-count" : "3",
+      "total-records" : "1048585",
+      "total-files-size" : "5909006",
+      "total-data-files" : "19",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/snap-6118885366905035378-1-82e22d0f-c4c8-4ed2-9ea7-98dbc40c8fe6.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 3,
+    "snapshot-id" : 3733467730074381361,
+    "parent-snapshot-id" : 6118885366905035378,
+    "timestamp-ms" : 1732436279515,
+    "summary" : {
+      "operation" : "delete",
+      "spark.app.id" : "local-1732436070168",
+      "deleted-data-files" : "1",
+      "deleted-records" : "1",
+      "removed-files-size" : "2206",
+      "changed-partition-count" : "1",
+      "total-records" : "1048584",
+      "total-files-size" : "5906800",
+      "total-data-files" : "18",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/snap-3733467730074381361-1-abbed668-2863-4c9b-9278-897cc1b5d5b3.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1732104980695,
+    "snapshot-id" : 7915680060403489000
+  }, {
+    "timestamp-ms" : 1732252302701,
+    "snapshot-id" : 6118885366905035378
+  }, {
+    "timestamp-ms" : 1732436279515,
+    "snapshot-id" : 3733467730074381361
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1731594882774,
+    "metadata-file" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/00000-8baccb32-4a46-42ad-a9e2-aae45fa15c16.metadata.json"
+  }, {
+    "timestamp-ms" : 1732104947503,
+    "metadata-file" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/00001-f26e1a62-3c31-4a77-82ef-bacf6ab54050.metadata.json"
+  }, {
+    "timestamp-ms" : 1732104980695,
+    "metadata-file" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/00002-4aee5dc1-fdc6-413f-9363-b407e9ac41a7.metadata.json"
+  }, {
+    "timestamp-ms" : 1732252302701,
+    "metadata-file" : "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/00003-e6da6690-093f-4026-9443-77cc4738d38e.metadata.json"
+  } ]
+}

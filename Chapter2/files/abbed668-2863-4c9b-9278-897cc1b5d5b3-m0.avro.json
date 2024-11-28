@@ -1,0 +1,4528 @@
+[
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2003-01-01/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00001.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2003-01-01T00:00:00.000"
+      },
+      "record_count": 2,
+      "file_size_in_bytes": 2394,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 54
+        },
+        {
+          "key": 2,
+          "value": 54
+        },
+        {
+          "key": 3,
+          "value": 54
+        },
+        {
+          "key": 4,
+          "value": 75
+        },
+        {
+          "key": 5,
+          "value": 76
+        },
+        {
+          "key": 6,
+          "value": 76
+        },
+        {
+          "key": 7,
+          "value": 72
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 2
+        },
+        {
+          "key": 2,
+          "value": 2
+        },
+        {
+          "key": 3,
+          "value": 2
+        },
+        {
+          "key": 4,
+          "value": 2
+        },
+        {
+          "key": 5,
+          "value": 2
+        },
+        {
+          "key": 6,
+          "value": 2
+        },
+        {
+          "key": 7,
+          "value": 2
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            131,
+            44,
+            15,
+            33,
+            179,
+            3,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            131,
+            44,
+            15,
+            33,
+            179,
+            3,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            8,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            201,
+            239,
+            50,
+            33,
+            179,
+            3,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            201,
+            239,
+            50,
+            33,
+            179,
+            3,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            8,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2008-12-31/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00002.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2008-12-31T00:00:00.000"
+      },
+      "record_count": 4,
+      "file_size_in_bytes": 2429,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 94
+        },
+        {
+          "key": 2,
+          "value": 70
+        },
+        {
+          "key": 3,
+          "value": 90
+        },
+        {
+          "key": 4,
+          "value": 62
+        },
+        {
+          "key": 5,
+          "value": 90
+        },
+        {
+          "key": 6,
+          "value": 60
+        },
+        {
+          "key": 7,
+          "value": 54
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 4
+        },
+        {
+          "key": 2,
+          "value": 4
+        },
+        {
+          "key": 3,
+          "value": 4
+        },
+        {
+          "key": 4,
+          "value": 4
+        },
+        {
+          "key": 5,
+          "value": 4
+        },
+        {
+          "key": 6,
+          "value": 4
+        },
+        {
+          "key": 7,
+          "value": 4
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            74,
+            4,
+            178,
+            95,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            42,
+            117,
+            36,
+            96,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            35
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            132,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            141,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            144,
+            64
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            219,
+            125,
+            61,
+            96,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            52,
+            91,
+            172,
+            96,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            8,
+            19
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            233,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            8,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            80,
+            66
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2009-01-01/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00003.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2009-01-01T00:00:00.000"
+      },
+      "record_count": 4,
+      "file_size_in_bytes": 2390,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 70
+        },
+        {
+          "key": 2,
+          "value": 70
+        },
+        {
+          "key": 3,
+          "value": 85
+        },
+        {
+          "key": 4,
+          "value": 62
+        },
+        {
+          "key": 5,
+          "value": 89
+        },
+        {
+          "key": 6,
+          "value": 60
+        },
+        {
+          "key": 7,
+          "value": 54
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 4
+        },
+        {
+          "key": 2,
+          "value": 4
+        },
+        {
+          "key": 3,
+          "value": 4
+        },
+        {
+          "key": 4,
+          "value": 4
+        },
+        {
+          "key": 5,
+          "value": 4
+        },
+        {
+          "key": 6,
+          "value": 4
+        },
+        {
+          "key": 7,
+          "value": 4
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            173,
+            199,
+            168,
+            96,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            173,
+            199,
+            168,
+            96,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            1
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            140,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            32,
+            64
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            203,
+            121,
+            64,
+            98,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            3,
+            22,
+            93,
+            98,
+            95,
+            4,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            1,
+            139
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            239,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            239,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            128,
+            65
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2018-11-28/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00004.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2018-11-28T00:00:00.000"
+      },
+      "record_count": 10,
+      "file_size_in_bytes": 2568,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 101
+        },
+        {
+          "key": 2,
+          "value": 101
+        },
+        {
+          "key": 3,
+          "value": 86
+        },
+        {
+          "key": 4,
+          "value": 75
+        },
+        {
+          "key": 5,
+          "value": 76
+        },
+        {
+          "key": 6,
+          "value": 76
+        },
+        {
+          "key": 7,
+          "value": 98
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 10
+        },
+        {
+          "key": 2,
+          "value": 10
+        },
+        {
+          "key": 3,
+          "value": 10
+        },
+        {
+          "key": 4,
+          "value": 10
+        },
+        {
+          "key": 5,
+          "value": 10
+        },
+        {
+          "key": 6,
+          "value": 10
+        },
+        {
+          "key": 7,
+          "value": 10
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            168,
+            233,
+            139,
+            187,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            61,
+            164,
+            150,
+            187,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            96,
+            64
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            39,
+            251,
+            144,
+            188,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            11,
+            201,
+            208,
+            202,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            64,
+            248,
+            67
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2018-11-29/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00005.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2018-11-29T00:00:00.000"
+      },
+      "record_count": 1,
+      "file_size_in_bytes": 2207,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 46
+        },
+        {
+          "key": 2,
+          "value": 46
+        },
+        {
+          "key": 3,
+          "value": 46
+        },
+        {
+          "key": 4,
+          "value": 46
+        },
+        {
+          "key": 5,
+          "value": 46
+        },
+        {
+          "key": 6,
+          "value": 46
+        },
+        {
+          "key": 7,
+          "value": 42
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 1
+        },
+        {
+          "key": 3,
+          "value": 1
+        },
+        {
+          "key": 4,
+          "value": 1
+        },
+        {
+          "key": 5,
+          "value": 1
+        },
+        {
+          "key": 6,
+          "value": 1
+        },
+        {
+          "key": 7,
+          "value": 1
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            174,
+            170,
+            226,
+            202,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            165,
+            118,
+            31,
+            203,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            48,
+            65
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            174,
+            170,
+            226,
+            202,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            165,
+            118,
+            31,
+            203,
+            123,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            193,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            48,
+            65
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2018-12-21/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00006.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2018-12-21T00:00:00.000"
+      },
+      "record_count": 1,
+      "file_size_in_bytes": 2207,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 46
+        },
+        {
+          "key": 2,
+          "value": 46
+        },
+        {
+          "key": 3,
+          "value": 46
+        },
+        {
+          "key": 4,
+          "value": 46
+        },
+        {
+          "key": 5,
+          "value": 46
+        },
+        {
+          "key": 6,
+          "value": 46
+        },
+        {
+          "key": 7,
+          "value": 42
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 1
+        },
+        {
+          "key": 3,
+          "value": 1
+        },
+        {
+          "key": 4,
+          "value": 1
+        },
+        {
+          "key": 5,
+          "value": 1
+        },
+        {
+          "key": 6,
+          "value": 1
+        },
+        {
+          "key": 7,
+          "value": 1
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            228,
+            205,
+            126,
+            136,
+            125,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            0,
+            28,
+            141,
+            136,
+            125,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            236,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            236,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            144,
+            64
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            228,
+            205,
+            126,
+            136,
+            125,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            0,
+            28,
+            141,
+            136,
+            125,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            236,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            236,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            144,
+            64
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2018-12-30/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00007.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2018-12-30T00:00:00.000"
+      },
+      "record_count": 9,
+      "file_size_in_bytes": 2486,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 101
+        },
+        {
+          "key": 2,
+          "value": 98
+        },
+        {
+          "key": 3,
+          "value": 76
+        },
+        {
+          "key": 4,
+          "value": 82
+        },
+        {
+          "key": 5,
+          "value": 74
+        },
+        {
+          "key": 6,
+          "value": 80
+        },
+        {
+          "key": 7,
+          "value": 74
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 9
+        },
+        {
+          "key": 2,
+          "value": 9
+        },
+        {
+          "key": 3,
+          "value": 9
+        },
+        {
+          "key": 4,
+          "value": 9
+        },
+        {
+          "key": 5,
+          "value": 9
+        },
+        {
+          "key": 6,
+          "value": 9
+        },
+        {
+          "key": 7,
+          "value": 9
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            248,
+            5,
+            134,
+            67,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            239,
+            209,
+            194,
+            67,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0,
+            137
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            48,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            79,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            240,
+            64
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            235,
+            144,
+            67,
+            68,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            251,
+            190,
+            181,
+            87,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            2,
+            208
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            234,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            7,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            184,
+            65
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2018-12-31/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00008.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2018-12-31T00:00:00.000"
+      },
+      "record_count": 345,
+      "file_size_in_bytes": 7784,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 1370
+        },
+        {
+          "key": 2,
+          "value": 1472
+        },
+        {
+          "key": 3,
+          "value": 212
+        },
+        {
+          "key": 4,
+          "value": 1126
+        },
+        {
+          "key": 5,
+          "value": 489
+        },
+        {
+          "key": 6,
+          "value": 580
+        },
+        {
+          "key": 7,
+          "value": 560
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 345
+        },
+        {
+          "key": 2,
+          "value": 345
+        },
+        {
+          "key": 3,
+          "value": 345
+        },
+        {
+          "key": 4,
+          "value": 345
+        },
+        {
+          "key": 5,
+          "value": 345
+        },
+        {
+          "key": 6,
+          "value": 345
+        },
+        {
+          "key": 7,
+          "value": 345
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            14,
+            203,
+            217,
+            80,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            33,
+            229,
+            36,
+            81,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            32,
+            64
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            217,
+            82,
+            50,
+            90,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            9,
+            16,
+            50,
+            109,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            8,
+            211
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            8,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            242,
+            66
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-01/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00009.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-01-01T00:00:00.000"
+      },
+      "record_count": 189035,
+      "file_size_in_bytes": 1069566,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 266472
+        },
+        {
+          "key": 2,
+          "value": 268697
+        },
+        {
+          "key": 3,
+          "value": 46478
+        },
+        {
+          "key": 4,
+          "value": 264608
+        },
+        {
+          "key": 5,
+          "value": 1680
+        },
+        {
+          "key": 6,
+          "value": 25408
+        },
+        {
+          "key": 7,
+          "value": 192174
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 189035
+        },
+        {
+          "key": 2,
+          "value": 189035
+        },
+        {
+          "key": 3,
+          "value": 189035
+        },
+        {
+          "key": 4,
+          "value": 189035
+        },
+        {
+          "key": 5,
+          "value": 189035
+        },
+        {
+          "key": 6,
+          "value": 189035
+        },
+        {
+          "key": 7,
+          "value": 189035
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            96,
+            230,
+            53,
+            90,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            231,
+            121,
+            57,
+            90,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            150,
+            195
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            57,
+            42,
+            80,
+            110,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            227,
+            236,
+            216,
+            193,
+            128,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            50,
+            73
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            225,
+            67
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-02/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00010.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-01-02T00:00:00.000"
+      },
+      "record_count": 197852,
+      "file_size_in_bytes": 1107912,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 278617
+        },
+        {
+          "key": 2,
+          "value": 280481
+        },
+        {
+          "key": 3,
+          "value": 46079
+        },
+        {
+          "key": 4,
+          "value": 270939
+        },
+        {
+          "key": 5,
+          "value": 1671
+        },
+        {
+          "key": 6,
+          "value": 22106
+        },
+        {
+          "key": 7,
+          "value": 203971
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 197852
+        },
+        {
+          "key": 2,
+          "value": 197852
+        },
+        {
+          "key": 3,
+          "value": 197852
+        },
+        {
+          "key": 4,
+          "value": 197852
+        },
+        {
+          "key": 5,
+          "value": 197852
+        },
+        {
+          "key": 6,
+          "value": 197852
+        },
+        {
+          "key": 7,
+          "value": 197852
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            192,
+            189,
+            83,
+            110,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            192,
+            189,
+            83,
+            110,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            147,
+            194
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            153,
+            1,
+            110,
+            130,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            230,
+            190,
+            64,
+            150,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            33,
+            242
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            195,
+            24,
+            198,
+            70
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-03/00000-6-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00011.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-01-03T00:00:00.000"
+      },
+      "record_count": 130216,
+      "file_size_in_bytes": 742939,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 185327
+        },
+        {
+          "key": 2,
+          "value": 186911
+        },
+        {
+          "key": 3,
+          "value": 35392
+        },
+        {
+          "key": 4,
+          "value": 180941
+        },
+        {
+          "key": 5,
+          "value": 1139
+        },
+        {
+          "key": 6,
+          "value": 15971
+        },
+        {
+          "key": 7,
+          "value": 133887
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 130216
+        },
+        {
+          "key": 2,
+          "value": 130216
+        },
+        {
+          "key": 3,
+          "value": 130216
+        },
+        {
+          "key": 4,
+          "value": 130216
+        },
+        {
+          "key": 5,
+          "value": 130216
+        },
+        {
+          "key": 6,
+          "value": 130216
+        },
+        {
+          "key": 7,
+          "value": 130216
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            32,
+            149,
+            113,
+            130,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            32,
+            149,
+            113,
+            130,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            80,
+            194
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            249,
+            216,
+            139,
+            150,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            39,
+            43,
+            50,
+            110,
+            128,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            20,
+            150
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            170,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            150,
+            67
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-03/00001-7-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00001.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-01-03T00:00:00.000"
+      },
+      "record_count": 92663,
+      "file_size_in_bytes": 521923,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 133490
+        },
+        {
+          "key": 2,
+          "value": 134457
+        },
+        {
+          "key": 3,
+          "value": 24913
+        },
+        {
+          "key": 4,
+          "value": 124610
+        },
+        {
+          "key": 5,
+          "value": 695
+        },
+        {
+          "key": 6,
+          "value": 8810
+        },
+        {
+          "key": 7,
+          "value": 92021
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 92663
+        },
+        {
+          "key": 2,
+          "value": 92663
+        },
+        {
+          "key": 3,
+          "value": 92663
+        },
+        {
+          "key": 4,
+          "value": 92663
+        },
+        {
+          "key": 5,
+          "value": 92663
+        },
+        {
+          "key": 6,
+          "value": 92663
+        },
+        {
+          "key": 7,
+          "value": 92663
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            32,
+            149,
+            113,
+            130,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            167,
+            40,
+            117,
+            130,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            170,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            160,
+            194
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            249,
+            216,
+            139,
+            150,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            233,
+            119,
+            112,
+            170,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            15,
+            81
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            51,
+            85,
+            208,
+            69
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-04/00001-7-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00002.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-01-04T00:00:00.000"
+      },
+      "record_count": 235044,
+      "file_size_in_bytes": 1304710,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 329915
+        },
+        {
+          "key": 2,
+          "value": 332005
+        },
+        {
+          "key": 3,
+          "value": 53891
+        },
+        {
+          "key": 4,
+          "value": 319795
+        },
+        {
+          "key": 5,
+          "value": 1779
+        },
+        {
+          "key": 6,
+          "value": 25464
+        },
+        {
+          "key": 7,
+          "value": 237351
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 235044
+        },
+        {
+          "key": 2,
+          "value": 235044
+        },
+        {
+          "key": 3,
+          "value": 235044
+        },
+        {
+          "key": 4,
+          "value": 235044
+        },
+        {
+          "key": 5,
+          "value": 235044
+        },
+        {
+          "key": 6,
+          "value": 235044
+        },
+        {
+          "key": 7,
+          "value": 235044
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            128,
+            108,
+            143,
+            150,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            7,
+            0,
+            147,
+            150,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            162,
+            194
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            89,
+            176,
+            169,
+            170,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            129,
+            235,
+            170,
+            190,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            34,
+            214
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            210,
+            7,
+            243,
+            70
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-05/00001-7-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00003.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-01-05T00:00:00.000"
+      },
+      "record_count": 203374,
+      "file_size_in_bytes": 1125553,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 285813
+        },
+        {
+          "key": 2,
+          "value": 287877
+        },
+        {
+          "key": 3,
+          "value": 49125
+        },
+        {
+          "key": 4,
+          "value": 274177
+        },
+        {
+          "key": 5,
+          "value": 1693
+        },
+        {
+          "key": 6,
+          "value": 21251
+        },
+        {
+          "key": 7,
+          "value": 201351
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 203374
+        },
+        {
+          "key": 2,
+          "value": 203374
+        },
+        {
+          "key": 3,
+          "value": 203374
+        },
+        {
+          "key": 4,
+          "value": 203374
+        },
+        {
+          "key": 5,
+          "value": 203374
+        },
+        {
+          "key": 6,
+          "value": 203374
+        },
+        {
+          "key": 7,
+          "value": 203374
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            224,
+            67,
+            173,
+            170,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            103,
+            215,
+            176,
+            170,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            0
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            143,
+            2,
+            122,
+            195
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            184,
+            213,
+            2,
+            190,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            183,
+            228,
+            209,
+            102,
+            128,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            26,
+            204
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            250,
+            67
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 0,
+    "snapshot_id": 7915680060403489000,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-01-06/00001-7-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00004.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-01-06T00:00:00.000"
+      },
+      "record_count": 14,
+      "file_size_in_bytes": 2716,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 132
+        },
+        {
+          "key": 2,
+          "value": 132
+        },
+        {
+          "key": 3,
+          "value": 76
+        },
+        {
+          "key": 4,
+          "value": 98
+        },
+        {
+          "key": 5,
+          "value": 112
+        },
+        {
+          "key": 6,
+          "value": 123
+        },
+        {
+          "key": 7,
+          "value": 115
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 14
+        },
+        {
+          "key": 2,
+          "value": 14
+        },
+        {
+          "key": 3,
+          "value": 14
+        },
+        {
+          "key": 4,
+          "value": 14
+        },
+        {
+          "key": 5,
+          "value": 14
+        },
+        {
+          "key": 6,
+          "value": 14
+        },
+        {
+          "key": 7,
+          "value": 14
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            213,
+            213,
+            213,
+            190,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            246,
+            22,
+            40,
+            191,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            41
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            48,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            48,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            128,
+            64
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            36,
+            84,
+            80,
+            194,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            199,
+            53,
+            98,
+            194,
+            126,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            2,
+            68
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            7,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            7,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            168,
+            65
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  },
+  {
+    "status": 2,
+    "snapshot_id": 3733467730074381300,
+    "sequence_number": 1,
+    "file_sequence_number": 1,
+    "data_file": {
+      "content": 0,
+      "file_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/data/tpep_pickup_datetime_day=2019-02-13/00001-7-6d46122d-b309-45cb-b72c-8701bf47aa97-0-00005.parquet",
+      "file_format": "PARQUET",
+      "partition": {
+        "tpep_pickup_datetime_day": "2019-02-13T00:00:00.000"
+      },
+      "record_count": 1,
+      "file_size_in_bytes": 2206,
+      "column_sizes": [
+        {
+          "key": 1,
+          "value": 46
+        },
+        {
+          "key": 2,
+          "value": 45
+        },
+        {
+          "key": 3,
+          "value": 46
+        },
+        {
+          "key": 4,
+          "value": 46
+        },
+        {
+          "key": 5,
+          "value": 46
+        },
+        {
+          "key": 6,
+          "value": 46
+        },
+        {
+          "key": 7,
+          "value": 42
+        }
+      ],
+      "value_counts": [
+        {
+          "key": 1,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 1
+        },
+        {
+          "key": 3,
+          "value": 1
+        },
+        {
+          "key": 4,
+          "value": 1
+        },
+        {
+          "key": 5,
+          "value": 1
+        },
+        {
+          "key": 6,
+          "value": 1
+        },
+        {
+          "key": 7,
+          "value": 1
+        }
+      ],
+      "null_value_counts": [
+        {
+          "key": 1,
+          "value": 0
+        },
+        {
+          "key": 2,
+          "value": 0
+        },
+        {
+          "key": 3,
+          "value": 0
+        },
+        {
+          "key": 4,
+          "value": 0
+        },
+        {
+          "key": 5,
+          "value": 0
+        },
+        {
+          "key": 6,
+          "value": 0
+        },
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "nan_value_counts": [
+        {
+          "key": 7,
+          "value": 0
+        }
+      ],
+      "lower_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            120,
+            24,
+            206,
+            191,
+            129,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            156,
+            246,
+            1,
+            198,
+            129,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            5,
+            18
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            132,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            14,
+            66
+          ]
+        }
+      ],
+      "upper_bounds": [
+        {
+          "key": 1,
+          "value": [
+            0,
+            120,
+            24,
+            206,
+            191,
+            129,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            0,
+            156,
+            246,
+            1,
+            198,
+            129,
+            5,
+            0
+          ]
+        },
+        {
+          "key": 3,
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 4,
+          "value": [
+            5,
+            18
+          ]
+        },
+        {
+          "key": 5,
+          "value": [
+            132,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 6,
+          "value": [
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": 7,
+          "value": [
+            0,
+            0,
+            14,
+            66
+          ]
+        }
+      ],
+      "key_metadata": null,
+      "split_offsets": [
+        4
+      ],
+      "equality_ids": null,
+      "sort_order_id": 0
+    }
+  }
+]
