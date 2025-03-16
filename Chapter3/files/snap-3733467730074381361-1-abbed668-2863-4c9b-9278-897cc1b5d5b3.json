@@ -1,0 +1,68 @@
+[
+{
+  "manifest_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/82e22d0f-c4c8-4ed2-9ea7-98dbc40c8fe6-m0.avro",
+  "manifest_length": 7624,
+  "partition_spec_id": 0,
+  "content": 0,
+  "sequence_number": 2,
+  "min_sequence_number": 2,
+  "added_snapshot_id": 6118885366905035378,
+  "added_files_count": 3,
+  "existing_files_count": 0,
+  "deleted_files_count": 0,
+  "added_rows_count": 10,
+  "existing_rows_count": 0,
+  "deleted_rows_count": 0,
+  "partitions": [
+    {
+      "contains_null": false,
+      "contains_nan": false,
+      "lower_bound": [
+        8,
+        70,
+        0,
+        0
+      ],
+      "upper_bound": [
+        10,
+        70,
+        0,
+        0
+      ]
+    }
+  ]
+},
+{
+  "manifest_path": "s3a://lakehouse/warehouse/data_db/new_york_taxi/metadata/abbed668-2863-4c9b-9278-897cc1b5d5b3-m0.avro",
+  "manifest_length": 8813,
+  "partition_spec_id": 0,
+  "content": 0,
+  "sequence_number": 3,
+  "min_sequence_number": 1,
+  "added_snapshot_id": 3733467730074381361,
+  "added_files_count": 0,
+  "existing_files_count": 15,
+  "deleted_files_count": 1,
+  "added_rows_count": 0,
+  "existing_rows_count": 1048574,
+  "deleted_rows_count": 1,
+  "partitions": [
+    {
+      "contains_null": false,
+      "contains_nan": false,
+      "lower_bound": [
+        21,
+        47,
+        0,
+        0
+      ],
+      "upper_bound": [
+        20,
+        70,
+        0,
+        0
+      ]
+    }
+  ]
+}
+]
